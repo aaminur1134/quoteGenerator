@@ -1,0 +1,44 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(187, 187, 174),rgb(117, 15, 15));
+}
+.container{
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    border: 2px solid gold;
+    box-shadow: 5px 10px 30px dodgerblue;
+    border-radius: 10px;
+}
+.container h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cyan;
+}
+.container h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    color: floralwhite;
+
+}
+#quoteBtn{
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid #fefefe;
+    border-radius: 4px;
+    color: #fefefe;
+    background: rgba(0, 0,0, 0.56);
+    cursor: pointer;
+    outline: none;
+}
+#quoteBtn:hover{
+    background: rgb(0, 0, 0);
+}
+#quoteAuthor{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color:deepskyblue;
+}
+
